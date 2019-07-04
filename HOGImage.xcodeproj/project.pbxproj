@@ -127,6 +127,7 @@
 		CB5A562D22CD7AF900F090C0 /* HOGImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HOGImage.cpp; sourceTree = "<group>"; };
 		CB5A562E22CD7AF900F090C0 /* HOGImage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HOGImage.hpp; sourceTree = "<group>"; };
 		CB5A563122CD7C4B00F090C0 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		CB5A563322CD80FB00F090C0 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +192,7 @@
 		CB5A55B922CD7A9500F090C0 = {
 			isa = PBXGroup;
 			children = (
+				CB5A563322CD80FB00F090C0 /* readme.md */,
 				CB5A563122CD7C4B00F090C0 /* images */,
 				CB5A55C422CD7A9500F090C0 /* HOGImage */,
 				CB5A55C322CD7A9500F090C0 /* Products */,

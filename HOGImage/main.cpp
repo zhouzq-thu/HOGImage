@@ -6,8 +6,6 @@
 //  Copyright © 2019 Zhi-Qiang Zhou. All rights reserved.
 //
 
-#include <iostream>
-
 #include "HOGImage.hpp"
 
 int main(int argc, const char * argv[]) {
@@ -18,9 +16,11 @@ int main(int argc, const char * argv[]) {
                           Size(10, 10),
                           9);
 
-    vector<float> desc;
-    string name = "HOG window";
+    Mat hogImg = HOGImage(image, hogDesc, 3, 2);
+
+    string name = "HOG Image window";
     namedWindow(name);
-    imshow(name, HOGImage(image, hogDesc, 5, 3));
+    imshow(name, hogImg);
     waitKey();
+    imwrite("hogImg.jpg", hogImg);
 }
