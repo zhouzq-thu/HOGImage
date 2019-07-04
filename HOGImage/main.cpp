@@ -8,8 +8,19 @@
 
 #include <iostream>
 
+#include "HOGImage.hpp"
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    Mat image = imread("images/teaser-original.jpg");
+    HOGDescriptor hogDesc(image.size(),
+                          Size(20, 20),
+                          Size(10, 10),
+                          Size(10, 10),
+                          9);
+
+    vector<float> desc;
+    string name = "HOG window";
+    namedWindow(name);
+    imshow(name, HOGImage(image, hogDesc, 5, 3));
+    waitKey();
 }
