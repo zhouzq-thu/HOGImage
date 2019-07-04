@@ -5,6 +5,7 @@
 //  Created by Zhi-Qiang Zhou on 7/4/19.
 //  Copyright © 2019 Zhi-Qiang Zhou. All rights reserved.
 //
+//  Ref: http://www.juergenbrauer.org/old_wiki/doku.php?id=public:hog_descriptor_computation_and_visualization
 
 #include "HOGImage.hpp"
 
